@@ -1,0 +1,252 @@
+================================================================================
+RT Model Companion Paper - Figure to Script Mapping
+================================================================================
+
+Complete mapping of all 27 figures to their generating Python scripts
+
+Repository: https://github.com/zecaone/RT-Model_Companion_Paper_Scripts
+Author: Urs Krafzig
+Year: 2026
+
+================================================================================
+SUMMARY
+================================================================================
+
+Total Figures:       27
+Total Scripts:       11
+
+By Category:
+  CMB Anomalies:     13 figures (7 scripts)
+  GRB Analysis:       5 figures (2 scripts)
+  Hubble Tension:     4 figures (1 script)
+  Quasar Jets:        5 figures (1 script)
+
+================================================================================
+CMB ANOMALIES - 13 FIGURES (7 SCRIPTS)
+================================================================================
+
+-------------------------------------------------------------------------------
+Axis of Evil Analysis (3 figures, 3 scripts)
+-------------------------------------------------------------------------------
+
+axis_of_evil_axes_comparison.png
+  → Script: scripts/cmb/axis_of_evil_analysis.py
+  → Section: 4.1.2
+  → Description: Quadrupole/octupole alignment analysis
+
+axis_of_evil_planck_comparison.png
+  → Script: scripts/cmb/axis_of_evil_planck_analysis.py
+  → Section: 4.1.2
+  → Description: Planck SMICA data analysis
+
+axis_of_evil_simulated_map.png
+  → Script: scripts/cmb/aoe_sim_paper.py
+  → Section: 4.1.2
+  → Description: Simulated anisotropic RT network
+
+-------------------------------------------------------------------------------
+Cold Spot Analysis (9 figures, 3 scripts)
+-------------------------------------------------------------------------------
+
+cold_spot_original_map.png
+  → Script: scripts/cmb/cold_spot_base_maps.py
+  → Section: 4.1.1
+  → Description: Synthetic CMB without RT defect
+
+cold_spot_damped_map.png
+  → Script: scripts/cmb/cold_spot_base_maps.py
+  → Section: 4.1.1
+  → Description: Synthetic CMB with 30% RT network damping
+
+cold_spot_difference_map.png
+  → Script: scripts/cmb/cold_spot_base_maps.py
+  → Section: 4.1.1
+  → Description: Difference map (damped - original)
+
+cold_spot_histogram.png
+  → Script: scripts/cmb/cold_spot_base_maps.py
+  → Section: 4.1.1
+  → Description: Temperature distribution comparison
+
+coldspot_radial_analysis.png
+  → Script: scripts/cmb/coldspot_radial_analysis.py
+  → Section: 4.1.1
+  → Description: Radial temperature profiles with Z-scores
+
+cold_spot_variant_A.png
+  → Script: scripts/cmb/generate_cold_spot_variants.py
+  → Section: 4.1.1
+  → Description: Cold Spot variant A (10% damping, no phase shift)
+
+cold_spot_variant_B.png
+  → Script: scripts/cmb/generate_cold_spot_variants.py
+  → Section: 4.1.1
+  → Description: Cold Spot variant B (30% damping, no phase shift)
+
+cold_spot_variant_C.png
+  → Script: scripts/cmb/generate_cold_spot_variants.py
+  → Section: 4.1.1
+  → Description: Cold Spot variant C (30% damping, phase shift)
+
+cold_spot_variant_D.png
+  → Script: scripts/cmb/generate_cold_spot_variants.py
+  → Section: 4.1.1
+  → Description: Cold Spot variant D (50% damping, phase shift)
+
+-------------------------------------------------------------------------------
+Multi-Defect Simulation (1 figure, 1 script)
+-------------------------------------------------------------------------------
+
+multi_defect_map.png
+  → Script: scripts/cmb/simulate_multiple_rt_defects.py
+  → Section: 4.1.2
+  → Description: Three-defect RT network simulation
+
+================================================================================
+GRB ANALYSIS - 5 FIGURES (2 SCRIPTS)
+================================================================================
+
+grb_221009a_lightcurve.png
+  → Script: scripts/grb/grb_221009a_lightcurve.py
+  → Section: 4.2.4
+  → Description: Multi-wavelength light curve (GRB 221009A - BOAT)
+
+grb_fit_n1.png
+  → Script: scripts/grb/grb_analysis_complete.py
+  → Section: 4.2.3
+  → Description: Energy-dependent delay fit (linear, n=1)
+
+grb_fit_n2.png
+  → Script: scripts/grb/grb_analysis_complete.py
+  → Section: 4.2.3
+  → Description: Energy-dependent delay fit (quadratic, n=2)
+
+grb_redshift_scaling.png
+  → Script: scripts/grb/grb_analysis_complete.py
+  → Section: 4.2.3
+  → Description: Redshift scaling of photon delays
+
+grb_residuals.png
+  → Script: scripts/grb/grb_analysis_complete.py
+  → Section: 4.2.5
+  → Description: Residuals analysis for delay fits
+
+================================================================================
+HUBBLE CONSISTENCY - 4 FIGURES (1 SCRIPT)
+================================================================================
+
+hubble_tension_overview.png
+  → Script: scripts/hubble/hubble_companion_figures.py
+  → Section: 4.3.1
+  → Description: RT model interpretation of Hubble tension
+
+hubble_sigma1e6.png
+  → Script: scripts/hubble/hubble_companion_figures.py
+  → Section: 4.3.3
+  → Description: H₀ distribution with σ = 10⁶ km
+
+hubble_sigma1e4.png
+  → Script: scripts/hubble/hubble_companion_figures.py
+  → Section: 4.3.3
+  → Description: H₀ distribution with σ = 10⁴ km
+
+hubble_sigma1e3.png
+  → Script: scripts/hubble/hubble_companion_figures.py
+  → Section: 4.3.3
+  → Description: H₀ distribution with σ = 10³ km
+
+================================================================================
+QUASAR JETS - 5 FIGURES (1 SCRIPT)
+================================================================================
+
+jet_morphology_schematic.png
+  → Script: scripts/jets/jet_figures_complete.py
+  → Section: 5.1
+  → Description: AGN jet structure overview (3-panel schematic)
+
+rt_jet_channel_schematic.png
+  → Script: scripts/jets/jet_figures_complete.py
+  → Section: 5.3
+  → Description: RT network with aligned links (topological channel)
+
+rt_jet_velocity_profile.png
+  → Script: scripts/jets/jet_figures_complete.py
+  → Section: 5.4
+  → Description: Velocity profile comparison (RT vs MHD)
+
+rt_jet_termination.png
+  → Script: scripts/jets/jet_figures_complete.py
+  → Section: 5.5
+  → Description: Jet termination and hot spot formation
+
+m87_rt_overlay.png
+  → Script: scripts/jets/jet_figures_complete.py
+  → Section: 5.7
+  → Description: M87 jet with RT channel overlay
+
+================================================================================
+SCRIPT OVERVIEW
+================================================================================
+
+CMB Scripts (7 total):
+  1. scripts/cmb/axis_of_evil_analysis.py              (1 figure)
+  2. scripts/cmb/axis_of_evil_planck_analysis.py       (1 figure)
+  3. scripts/cmb/aoe_sim_paper.py                      (1 figure)
+  4. scripts/cmb/cold_spot_base_maps.py                (4 figures)
+  5. scripts/cmb/coldspot_radial_analysis.py           (1 figure)
+  6. scripts/cmb/generate_cold_spot_variants.py        (4 figures)
+  7. scripts/cmb/simulate_multiple_rt_defects.py       (1 figure)
+
+GRB Scripts (2 total):
+  8. scripts/grb/grb_221009a_lightcurve.py             (1 figure)
+  9. scripts/grb/grb_analysis_complete.py              (4 figures)
+
+Hubble Scripts (1 total):
+ 10. scripts/hubble/hubble_companion_figures.py        (4 figures)
+
+Jets Scripts (1 total):
+ 11. scripts/jets/jet_figures_complete.py              (5 figures)
+
+================================================================================
+RENAMED SCRIPTS
+================================================================================
+
+The following scripts were renamed from German to English for international
+accessibility:
+
+  OLD: analyze_modenachsen.py
+  NEW: axis_of_evil_analysis.py
+  Reason: Consistent with "Axis of Evil" nomenclature
+
+  OLD: smica_kontrollprofile_speichern.py
+  NEW: coldspot_radial_analysis.py
+  Reason: Matches output filename, removes implementation detail (SMICA)
+
+================================================================================
+QUICK REFERENCE
+================================================================================
+
+Find script for a specific figure:
+  grep "figure_name.png" FIGURE_MAPPING.txt
+
+List all figures by a script:
+  grep "script_name.py" FIGURE_MAPPING.txt
+
+Count figures per category:
+  grep "CMB ANOMALIES" -A 100 FIGURE_MAPPING.txt | grep "→ Script"
+  grep "GRB ANALYSIS" -A 30 FIGURE_MAPPING.txt | grep "→ Script"
+  grep "HUBBLE" -A 20 FIGURE_MAPPING.txt | grep "→ Script"
+  grep "JETS" -A 20 FIGURE_MAPPING.txt | grep "→ Script"
+
+================================================================================
+NOTES
+================================================================================
+
+- All scripts output figures to the figures/ directory
+- All figures are saved at 300 DPI in PNG format
+- Scripts are independent and can be run in any order
+- No dependencies between scripts
+
+================================================================================
+Last updated: February 2026
+================================================================================
