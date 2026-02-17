@@ -208,37 +208,6 @@ Jets Scripts (1 total):
  11. scripts/jets/jet_figures_complete.py              (5 figures)
 
 ================================================================================
-RENAMED SCRIPTS
-================================================================================
-
-The following scripts were renamed from German to English for international
-accessibility:
-
-  OLD: analyze_modenachsen.py
-  NEW: axis_of_evil_analysis.py
-  Reason: Consistent with "Axis of Evil" nomenclature
-
-  OLD: smica_kontrollprofile_speichern.py
-  NEW: coldspot_radial_analysis.py
-  Reason: Matches output filename, removes implementation detail (SMICA)
-
-================================================================================
-QUICK REFERENCE
-================================================================================
-
-Find script for a specific figure:
-  grep "figure_name.png" FIGURE_MAPPING.txt
-
-List all figures by a script:
-  grep "script_name.py" FIGURE_MAPPING.txt
-
-Count figures per category:
-  grep "CMB ANOMALIES" -A 100 FIGURE_MAPPING.txt | grep "→ Script"
-  grep "GRB ANALYSIS" -A 30 FIGURE_MAPPING.txt | grep "→ Script"
-  grep "HUBBLE" -A 20 FIGURE_MAPPING.txt | grep "→ Script"
-  grep "JETS" -A 20 FIGURE_MAPPING.txt | grep "→ Script"
-
-================================================================================
 NOTES
 ================================================================================
 

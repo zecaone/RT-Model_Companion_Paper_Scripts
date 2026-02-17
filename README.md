@@ -1,6 +1,6 @@
 # RT Model Companion Paper - Code Repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18674355.svg)](https://doi.org/10.5281/zenodo.18674355)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Code accompanying the paper:
@@ -214,7 +214,7 @@ If you use this code in your research, please cite:
 @article{krafzig2026rtcompanion,
   author = {Krafzig, Urs},
   title = {Observable Cosmological Effects and Testable Predictions in the Raumteilchen Model},
-  journal = {arXiv preprint (submitted)},
+  journal = {preprint (submitted)},
   year = {2026},
   note = {Companion paper to the RT Model foundational framework},
   url = {https://github.com/zecaone/RT-Model_Companion_Paper_Scripts}
@@ -229,7 +229,7 @@ If you use this code in your research, please cite:
   year = {2026},
   publisher = {Zenodo},
   version = {v1.0},
-  doi = {10.5281/zenodo.XXXXXXX},
+  doi = {10.5281/zenodo.18674355},
   url = {https://github.com/zecaone/RT-Model_Companion_Paper_Scripts}
 }
 ```
@@ -259,12 +259,11 @@ This research was conducted as an independent side project alongside full-time e
 ## Related Publications
 
 - **Foundational Paper**: Krafzig, U. (2026). "The Raumteilchen Model: Foundations of a Discrete Spacetime Framework" (in preparation)
-- **Companion Paper**: Krafzig, U. (2026). "Observable Cosmological Effects and Testable Predictions in the Raumteilchen Model" (submitted)
+- **Companion Paper**: Krafzig, U. (2026). "Observable Cosmological Effects and Testable Predictions in the Raumteilchen Model" (in preparation)
 
 ## Version History
 
-- **v1.0** (2026-XX-XX): Initial release with all 11 scripts generating 27 figures
-- **v1.0-submission** (2026-XX-XX): Pre-submission snapshot
+- **v1.0** (2026-02-17): Initial release with all 11 scripts generating 27 figures
 
 ---
 
