@@ -1,6 +1,6 @@
 # RT Model Companion Paper - Code Repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18727366.svg)](https://doi.org/10.5281/zenodo.18727366)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Code accompanying the paper:
@@ -229,7 +229,7 @@ If you use this code in your research, please cite:
   year = {2026},
   publisher = {Zenodo},
   version = {v1.0},
-  doi = {10.5281/zenodo.18674355},
+  doi = {10.5281/zenodo.18727366},
   url = {https://github.com/zecaone/RT-Model_Companion_Paper_Scripts}
 }
 ```
