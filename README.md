@@ -1,6 +1,6 @@
 # RT Model Companion Paper - Code Repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18674355.svg)](https://doi.org/10.5281/zenodo.18674355)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Code accompanying the paper:
